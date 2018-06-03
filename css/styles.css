@@ -1,31 +1,51 @@
 html {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#606c88+0,3d3d3d+68 */
-  background: #606c88;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #606c88 0%, #3d3d3d 68%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #606c88 0%, #3d3d3d 68%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #606c88 0%, #3d3d3d 68%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3d3d3d',GradientType=0 );
-  /* IE6-9 */ }
+  background-color: #3d3d3d; }
 
 body {
   padding-bottom: 50px; }
 
-/*h1 {
+header {
+  background-color: #3c4652; }
+  header h1 {
+    margin-top: 25px;
+    font-size: 3rem;
+    display: inline-flex; }
 
-}*/
-a {
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 20%;
   padding: 5px;
-  border: 1px; }
+  margin: 20px;
+  margin-top: 0px;
+  background-color: lightblue;
+  border: 5px black solid; }
+  nav a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: lightblue;
+    border: 1px black solid; }
+    nav a a:hover {
+      background-color: #458ca9; }
 
 article {
   width: 90%;
-  border: 3px;
-  background-color: lightgray; }
+  border: 3px black solid;
+  background-color: lightgray;
+  margin: 15px;
+  padding: 5px; }
   article section {
-    border: 1px;
+    border: 1px black solid;
     padding: 5px;
+    margin: 5px;
     background-color: white; }
+
+.logo {
+  display: inline-block;
+  height: 60px;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 25px; }
